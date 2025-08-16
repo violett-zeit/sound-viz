@@ -1,0 +1,13 @@
+title: 음원 분석 수업
+author: Sound Analysis Course
+copyright: "2025"
+
+execute:
+  execute_notebooks: "off"
+  timeout: 600
+  allow_errors: false
+
+html:
+  use_issues_button: false
+  use_repository_button: false
+  use_edit_page_button: false

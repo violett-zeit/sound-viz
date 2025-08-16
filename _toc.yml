@@ -1,0 +1,11 @@
+format: jb-book
+root: README
+parts:
+  - caption: 강의 자료
+    chapters:
+      - file: lessons/01
+        title: "1주차: NumPy 기초와 배열 연산"
+  - caption: 참고 자료
+    chapters:
+      - file: deployment
+        title: "배포 및 자동화"

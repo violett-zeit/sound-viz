@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build: .
+    container_name: sound-analysis
+    ports:
+      - "8888:8888"
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - jupyter_data:/root/.jupyter
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=sound-2025
+    command: >
+      bash -c "
+      jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+      --NotebookApp.token='sound-2025'
+      "
+
+volumes:
+  jupyter_data:
