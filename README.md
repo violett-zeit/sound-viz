@@ -105,6 +105,7 @@ jupyter lab
 - K-Nearest Neighbors (가장 직관적)
 - Decision Tree (시각화 가능)
 - 정확도, 혼동행렬
+- PCA 전처리와 분류 모델 결합
 
 ### 8주차: 기초 머신러닝 - 클러스터링
 
@@ -114,13 +115,18 @@ jupyter lab
 - 최적 클러스터 수 찾기 (Elbow method)
 - 클러스터 시각화
 - 클러스터 특징 해석
+- PCA 공간에서의 클러스터링
 
-### 9주차: 종합 프로젝트
+### 9주차: 고급 신호처리와 실시간 분석
 
-**학습 목표**: 전체 파이프라인 구축
+**학습 목표**: 실시간 오디오 분석과 고급 기법 습득
 
-- **옵션 1**: 음악 추천 시스템
-- **옵션 2**: 음성/음악 분류기
+- 실시간 오디오 스트리밍 처리
+- 고급 스펙트럼 분석 (Mel-spectrogram, Chroma)
+- 오디오 증강 기법 (Audio Augmentation)
+- 윈도우 함수와 STFT 심화
+- 템포와 피치 분석
+- 실시간 시각화 대시보드 구축
 
 각 주차마다 연구 논문에 활용 가능한 실험 방법과 결과 분석 기법이 포함되어 있다.
 
@@ -196,10 +202,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 ## 💬 질문하기
 
 학습 중 궁금한 점이나 문제가 생기면 [GitHub Discussions](https://github.com/violett-zeit/sound-viz/discussions)에서 언제든지 질문하자.
-
-## 🤝 연구 협력
-
-연구 방법론 개선 아이디어는 언제든지 환영한다
 
 ---
 
