@@ -193,6 +193,10 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 이 프로젝트는 연구 및 교육 목적으로 자유롭게 사용할 수 있다.
 
+## 💬 질문하기
+
+학습 중 궁금한 점이나 문제가 생기면 [GitHub Discussions](https://github.com/violett-zeit/sound-viz/discussions)에서 언제든지 질문하자.
+
 ## 🤝 연구 협력
 
 연구 방법론 개선 아이디어는 언제든지 환영한다
