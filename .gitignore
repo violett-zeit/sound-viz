@@ -121,3 +121,6 @@ node_modules/
 .claude/*
 
 .personal/
+
+# Examples directory (development/testing only)
+examples/
