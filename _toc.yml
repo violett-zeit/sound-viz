@@ -5,6 +5,10 @@ parts:
     chapters:
       - file: lessons/01
         title: "1주차: NumPy 기초와 배열 연산"
+      - file: lessons/02
+        title: "2주차: Pandas로 구조화된 데이터 다루기"
+      - file: lessons/03
+        title: "3주차: 오디오 파일 처리와 변환"
   - caption: 참고 자료
     chapters:
       - file: deployment
