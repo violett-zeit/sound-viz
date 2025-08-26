@@ -9,6 +9,8 @@ parts:
         title: "2주차: Pandas로 구조화된 데이터 다루기"
       - file: lessons/03
         title: "3주차: 오디오 파일 처리와 변환"
+      - file: lessons/04
+        title: "4주차: 탐색적 데이터 분석"
   - caption: 참고 자료
     chapters:
       - file: deployment
