@@ -82,7 +82,6 @@ $RECYCLE.BIN/
 .idea/
 *.swp
 *.swo
-*~
 
 logs
 *.log
@@ -122,5 +121,7 @@ node_modules/
 
 .personal/
 
-# Examples directory (development/testing only)
 examples/
+
+# Environment variables
+.env

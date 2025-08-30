@@ -4,7 +4,6 @@ services:
     container_name: sound-analysis
     ports:
       - "8888:8888"
-      - "8000:8000"
     volumes:
       - .:/app
       - jupyter_data:/root/.jupyter

@@ -11,8 +11,8 @@ parts:
         title: "3주차: 오디오 파일 처리와 변환"
       - file: lessons/04
         title: "4주차: 탐색적 데이터 분석"
-      - file: lessons/extra_01
-        title: "특강 01: Spotify API 활용 및 실제 음원 특성 데이터 수집"
+      - file: extra/extra_01
+        title: "특강 01: Spotify API로 음원 데이터 수집하기"
       - file: lessons/05
         title: "5주차: PCA와 차원 축소"
   - caption: 참고 자료
