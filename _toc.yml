@@ -12,7 +12,7 @@ parts:
       - file: lessons/04
         title: "4주차: 탐색적 데이터 분석"
       - file: extra/extra_01
-        title: "특강 01: Spotify API로 음원 데이터 수집하기"
+        title: "특강 01: Spotify API & ReccoBeats API를 활용한 음원 분석"
       - file: lessons/05
         title: "5주차: PCA와 차원 축소"
   - caption: 참고 자료
